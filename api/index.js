@@ -1,13 +1,13 @@
 import axios from "axios";
 
-const MAX_REQUESTS = 99999;
+const MAX_REQUESTS = 50;
 const TIMEOUT = 5000;
 
 /*
  * Masukkan domain yang memang kamu miliki/izinkan untuk dites.
  *
  * Contoh:
- * "api.yasamdev.web.id"
+ * "myrepublic.co.id"
  * "example.com"
  */
 const ALLOWED_HOSTS = new Set([
