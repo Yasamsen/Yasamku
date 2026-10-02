@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const MAX_REQUESTS = 50;
+const MAX_REQUESTS = 999999999999999;
 const TIMEOUT = 5000;
 
 /*
