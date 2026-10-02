@@ -11,7 +11,7 @@ const TIMEOUT = 5000;
  * "example.com"
  */
 const ALLOWED_HOSTS = new Set([
-  "api.yasamdev.web.id"
+  "https://www.myrepublic.co.id"
 ]);
 
 function isAllowedTarget(target) {
