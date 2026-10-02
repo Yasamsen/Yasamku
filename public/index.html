@@ -176,7 +176,7 @@
             id="requests"
             type="number"
             min="1"
-            max="999999999999999"
+            max=""
             value="10"
             required
           >
@@ -203,7 +203,7 @@
     </div>
 
     <div class="warning">
-      Maksimal 50 request per test. Gunakan hanya pada domain/server
+      Maksimal 9999999999999 request per test. Gunakan hanya pada domain/server
       yang kamu miliki atau yang memang memberikan izin untuk pengujian.
     </div>
 
@@ -229,7 +229,7 @@
       }
 
       if (!Number.isInteger(requests) || requests < 1 || requests > 9999999999999) {
-        alert("Jumlah request harus antara 1 sampai 50.");
+        alert("Jumlah request harus antara 1 sampai 9999999999999.");
         return;
       }
 
